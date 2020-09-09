@@ -400,3 +400,12 @@ print('Image predicted as ', class_names[pred.item()])
 
 from IPython.display import Image, display
 display(Image(PATH_TO_IMAGE))
+
+"""Saving the model"""
+
+torch.save(model_ft, 'full_model_export1.pkl')  # save entire net
+torch.save(model_ft.state_dict(), 'parameters_export2.pkl')   # save only the parameters
+
+# Model class must be defined somewhere 
+model = torch.load('/content/full_model_export1.pkl') 
+model.eval()
