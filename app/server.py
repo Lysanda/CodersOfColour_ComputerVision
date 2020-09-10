@@ -30,7 +30,7 @@ data_transforms_with_normalization = {
     ]),
 }
 
-classes = ['white', 'blue', 'yellow', 'pink']
+classes = ['blue', 'pink', 'white', 'yellow']
 path = Path(__file__).parent
 
 app = Starlette()
