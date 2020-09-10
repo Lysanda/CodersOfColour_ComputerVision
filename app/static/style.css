@@ -1,5 +1,7 @@
 body {
-    background: url(https://i.pinimg.com/originals/3a/0a/0a/3a0a0a4c4451cd6a9be347d07ea18278.jpg);
+    background-image: url(https://i.pinimg.com/originals/3a/0a/0a/3a0a0a4c4451cd6a9be347d07ea18278.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .no-display {
