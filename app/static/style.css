@@ -1,10 +1,9 @@
 body {
-    background-image: url(https://i.pinimg.com/originals/3a/0a/0a/3a0a0a4c4451cd6a9be347d07ea18278.jpg);
-    background-color: #8c52ff;
-    background-size: cover;
+    background-image: url("bckgrnd.jpg");
+    /*background-color: #8c52ff;
+    background-size: cover;*/
     background-position: center;
 
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .no-display {
@@ -16,13 +15,19 @@ body {
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 1em;
-    margin-bottom: 1em;
-    color: #262626;
+    margin-bottom: 1em;    
+}
+
+.maintext {
+    font-size: 30px;
+   
 }
 
 .content {
@@ -36,6 +41,7 @@ body {
 .upload-label {
     padding: 10px;
     font-size: 12px;
+    color: #000000;
 }
 
 .result-label {
